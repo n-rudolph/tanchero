@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2016-05-31 02:15:07">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2016-05-31 14:32:58">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -783,7 +783,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-80;SY=42;EX=94;EY=-73;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -833,10 +832,10 @@
 						</UML:Dependency>
 						<UML:Association xmi.id="EAID_F27D15EB_00C5_4347_A5F0_4847F7944D56" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -849,7 +848,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="427"/>
 								<UML:TaggedValue tag="ea_targetID" value="499"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-1;SY=-41;EX=-1;EY=-41;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1541,13 +1539,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{64EBC1AB-1347-48be-AA94-F3CB2FEF36A6}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -1609,13 +1606,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{371A9F6E-5B64-4fb5-969B-16B85D6A186F}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -1677,13 +1673,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{820824BD-442C-4b84-9857-08E3092F34E4}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -1840,7 +1835,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1891,7 +1886,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1904,7 +1899,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="s" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1975,10 +1970,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_3EEB6FE1_8A82_4af5_91E2_A8DD60F2CCC1" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -1991,7 +1986,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="428"/>
 								<UML:TaggedValue tag="ea_targetID" value="465"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2013,10 +2007,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_607E61B6_A03F_46c2_9237_831BB1B3D6E8" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -2029,7 +2023,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="428"/>
 								<UML:TaggedValue tag="ea_targetID" value="438"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=1;SY=10;EX=1;EY=10;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2067,7 +2060,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="428"/>
 								<UML:TaggedValue tag="ea_targetID" value="445"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=56;SY=20;EX=-17;EY=7;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2105,7 +2097,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="428"/>
 								<UML:TaggedValue tag="ea_targetID" value="463"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=42;SY=4;EX=50;EY=25;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2143,7 +2134,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="440"/>
 								<UML:TaggedValue tag="ea_targetID" value="428"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=89;SY=31;EX=96;EY=57;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2197,7 +2187,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-1;SY=-13;EX=-1;EY=-13;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -2252,7 +2241,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid10"/>
+										<UML:Classifier xmi.idref="eaxmiid11"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="Set&lt;PlayerSpeed&gt;"/>
@@ -2402,7 +2391,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2471,7 +2460,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2544,7 +2533,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="548"/>
 								<UML:TaggedValue tag="ea_targetID" value="546"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=45;SY=-2;EX=5;EY=-64;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2566,10 +2554,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_64A31338_7531_408a_ADD8_95A22E4AAD51" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -2582,7 +2570,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="546"/>
 								<UML:TaggedValue tag="ea_targetID" value="539"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=51;SY=1;EX=51;EY=1;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2604,10 +2591,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_81867375_D9EC_4661_B33E_FF89FBED3D0C" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -2620,7 +2607,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="539"/>
 								<UML:TaggedValue tag="ea_targetID" value="546"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=9;SY=-8;EX=9;EY=-8;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2674,7 +2660,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-61;SY=0;EX=0;EY=-5;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -2702,8 +2687,8 @@
 								<UML:TaggedValue tag="ea_localid" value="548"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="$ea_attsclassified" value="{1C2FE962-0B57-4d77-BD75-81B104E885AF}"/>
-								<UML:TaggedValue tag="$ea_oprsclassified" value="{44C0B47C-D28F-4975-9BD2-61BE1D46EADC},{0F1603BE-F506-4941-A533-8506D2785F0A}"/>
-								<UML:TaggedValue tag="$ea_oprparamsclassified" value="{831FC312-4E85-4d7a-BA90-C1BC1B85DB8F},{17073050-F64E-436a-ACF3-2FF32DBBAD99},{9A6958E2-0298-4865-9C32-3989B60B29B5}"/>
+								<UML:TaggedValue tag="$ea_oprsclassified" value="{0F1603BE-F506-4941-A533-8506D2785F0A},{44C0B47C-D28F-4975-9BD2-61BE1D46EADC}"/>
+								<UML:TaggedValue tag="$ea_oprparamsclassified" value="{831FC312-4E85-4d7a-BA90-C1BC1B85DB8F},{9A6958E2-0298-4865-9C32-3989B60B29B5},{17073050-F64E-436a-ACF3-2FF32DBBAD99}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={87FFB872-91CB-4490-9C0E-307F50E582F6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={9EED3AC4-C8D0-45c3-909B-7C007DA42F82};@ENDSTEREO;$DES;$CLT={1CA67DCC-36FD-4870-B283-5636B4AA007D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
@@ -2713,7 +2698,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid8"/>
+										<UML:Classifier xmi.idref="eaxmiid9"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -2739,7 +2724,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid8"/>
+										<UML:Classifier xmi.idref="eaxmiid9"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -2764,7 +2749,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid8"/>
+										<UML:Classifier xmi.idref="eaxmiid9"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -2790,7 +2775,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid8"/>
+										<UML:Classifier xmi.idref="eaxmiid9"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -2816,7 +2801,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid8"/>
+										<UML:Classifier xmi.idref="eaxmiid9"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -2842,7 +2827,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid8"/>
+										<UML:Classifier xmi.idref="eaxmiid9"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -2883,7 +2868,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="541"/>
 								<UML:TaggedValue tag="ea_targetID" value="548"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=43;EY=-55;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -2921,7 +2905,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="548"/>
 								<UML:TaggedValue tag="ea_targetID" value="547"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=35;SY=-51;EX=41;EY=-49;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -3157,7 +3140,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3196,7 +3179,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3282,10 +3265,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_29D40293_C7D6_46b0_B1D0_883689A98F76" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -3298,7 +3281,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="535"/>
 								<UML:TaggedValue tag="ea_targetID" value="551"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=14;SY=-16;EX=25;EY=-16;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -3352,16 +3334,15 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=70;SY=1;EX=-12;EY=-1;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Association xmi.id="EAID_53F4A005_F1C0_4056_BE61_80179AF5178B" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -3374,7 +3355,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="551"/>
 								<UML:TaggedValue tag="ea_targetID" value="535"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-38;SY=-1;EX=-38;EY=-1;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -3412,7 +3392,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="551"/>
 								<UML:TaggedValue tag="ea_targetID" value="440"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=84;SY=-24;EX=-73;EY=-112;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -3825,13 +3804,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{C24613F9-0CFD-4adf-B232-004430AEE66C}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -3883,13 +3861,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{A7BF6521-E2D8-4573-80AD-143DDDFF90E2}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -3941,13 +3918,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{21316309-2397-4f54-A1B2-F8AF7C626D92}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -4029,7 +4005,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4070,7 +4046,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4083,7 +4059,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="s" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4182,7 +4158,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CF87028D-1BA9-43e9-911F-5F186CFE41E5}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={5FC735C4-DECD-4011-8D75-478E3D1CCCD8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -4206,7 +4181,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="429"/>
 								<UML:TaggedValue tag="ea_targetID" value="431"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-70;SY=20;EX=-109;EY=74;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -4260,7 +4234,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-16;SY=20;EX=-15;EY=19;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -4304,7 +4277,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AE0B793C-C035-4289-AB21-ABFFF0C24880}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={C2D14FA5-27BF-4cd7-A89A-BEECDBEBDBFB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=68;SY=-108;EX=53;EY=37;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -4349,7 +4321,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8D39BB68-7791-470b-B34C-6D1249DD436A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={C6A0A798-2089-4651-A0EA-CC37CB206C6F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-109;SY=73;EX=96;EY=5;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -4381,7 +4352,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid11"/>
+										<UML:Classifier xmi.idref="eaxmiid12"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;Button&gt;"/>
@@ -4504,7 +4475,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4543,7 +4514,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4632,7 +4603,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=5;SY=-29;EX=5;EY=-29;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -4663,7 +4633,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid12"/>
+										<UML:Classifier xmi.idref="eaxmiid13"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="String"/>
@@ -4713,7 +4683,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid12"/>
+										<UML:Classifier xmi.idref="eaxmiid13"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="String"/>
@@ -4738,7 +4708,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid13"/>
+										<UML:Classifier xmi.idref="eaxmiid14"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;TourPath&gt;"/>
@@ -4763,7 +4733,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid14"/>
+										<UML:Classifier xmi.idref="eaxmiid15"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;TourPoint&gt;"/>
@@ -4863,7 +4833,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4941,7 +4911,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4980,7 +4950,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5019,7 +4989,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5168,7 +5138,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="author" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5222,7 +5192,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="name" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5272,7 +5242,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -5295,7 +5264,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="440"/>
 								<UML:TaggedValue tag="ea_targetID" value="431"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-97;SY=-25;EX=-101;EY=-69;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -5334,7 +5302,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="541"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="$ea_attsclassified" value="{1B87E51F-50D9-4b2d-BFE4-156FAEAC2E31},{DA27A2E1-AAC4-45d6-9C52-748F1C1CDFA2},{E1C785E0-2BF6-4955-A810-13A653A22EC5}"/>
+								<UML:TaggedValue tag="$ea_attsclassified" value="{DA27A2E1-AAC4-45d6-9C52-748F1C1CDFA2},{E1C785E0-2BF6-4955-A810-13A653A22EC5},{1B87E51F-50D9-4b2d-BFE4-156FAEAC2E31}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
@@ -5412,7 +5380,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid15"/>
+										<UML:Classifier xmi.idref="eaxmiid16"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;Images&gt;"/>
@@ -5730,7 +5698,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="name" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5744,7 +5712,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="dir" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -5836,7 +5804,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="540"/>
 								<UML:TaggedValue tag="ea_targetID" value="541"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=47;SY=-15;EX=-13;EY=-5;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -5858,10 +5825,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_5296BCC4_AC4A_4b1c_A180_A7F83EEDB6BB" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -5874,7 +5841,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="541"/>
 								<UML:TaggedValue tag="ea_targetID" value="543"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-18;SY=3;EX=-18;EY=-2;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -5912,7 +5878,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="541"/>
 								<UML:TaggedValue tag="ea_targetID" value="438"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=-5;EY=72;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -5950,7 +5915,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="539"/>
 								<UML:TaggedValue tag="ea_targetID" value="541"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=-71;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -5988,7 +5952,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="538"/>
 								<UML:TaggedValue tag="ea_targetID" value="541"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-49;SY=-12;EX=-49;EY=-12;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -6010,10 +5973,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_ED6F105A_4630_489b_8C3E_7E652E5C0BD9" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -6026,7 +5989,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="537"/>
 								<UML:TaggedValue tag="ea_targetID" value="541"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-11;SY=0;EX=-11;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -6097,7 +6059,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid10"/>
+										<UML:Classifier xmi.idref="eaxmiid11"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="Set&lt;PlayerSpeed&gt;"/>
@@ -6218,7 +6180,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6287,7 +6249,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6405,16 +6367,15 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-3;SY=0;EX=-26;EY=-53;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Association xmi.id="EAID_784F5277_CDF2_40f7_93C2_17E94101DD0B" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -6427,7 +6388,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="547"/>
 								<UML:TaggedValue tag="ea_targetID" value="540"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-21;SY=-1;EX=-21;EY=-1;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -6449,10 +6409,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_ED316B0A_0CB7_42b5_BB3B_4026AF0ED0D7" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -6465,7 +6425,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="540"/>
 								<UML:TaggedValue tag="ea_targetID" value="547"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=27;SY=-5;EX=27;EY=-5;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -6512,7 +6471,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid11"/>
+										<UML:Classifier xmi.idref="eaxmiid12"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;Button&gt;"/>
@@ -6633,7 +6592,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6672,7 +6631,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6761,7 +6720,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=56;SY=31;EX=56;EY=31;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -6921,10 +6879,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_93C0962C_1D35_4543_ACA3_7970C8692E1A" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -6937,7 +6895,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="534"/>
 								<UML:TaggedValue tag="ea_targetID" value="549"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=36;SY=3;EX=36;EY=3;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -6975,7 +6932,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="534"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-4;SY=-40;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -6997,10 +6953,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_D9F3ED4B_9BFC_4023_B5BD_F8763FA78468" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7013,7 +6969,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="549"/>
 								<UML:TaggedValue tag="ea_targetID" value="534"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-28;SY=-2;EX=-28;EY=-2;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -7067,7 +7022,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=18;SY=8;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -7122,7 +7076,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid14"/>
+										<UML:Classifier xmi.idref="eaxmiid15"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;TourPoint&gt;"/>
@@ -7276,7 +7230,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="points" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7315,7 +7269,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7354,7 +7308,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7411,10 +7365,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_555557DE_0E5D_4705_8B81_F87A9B8E854C" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7427,7 +7381,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="536"/>
 								<UML:TaggedValue tag="ea_targetID" value="550"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-46;SY=-7;EX=-46;EY=-7;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -7481,16 +7434,15 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=69;SY=-7;EX=-26;EY=-53;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Association xmi.id="EAID_C9C408E0_8CF6_45bb_99D0_F2FCBC576848" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7503,7 +7455,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="550"/>
 								<UML:TaggedValue tag="ea_targetID" value="536"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-67;SY=-10;EX=-67;EY=-10;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -7683,10 +7634,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_354405F8_EBC3_490e_AC79_A67502232EAF" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7699,7 +7650,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="433"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-36;SY=-9;EX=-36;EY=-9;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -7721,10 +7671,10 @@
 						</UML:Association>
 						<UML:Dependency client="EAID_5D0C3CDC_DAFE_4312_9A02_C35B55A35DE0" supplier="EAID_198AFA1B_C89A_4053_B080_2EEEB9B53495" xmi.id="EAID_42EFBAD5_85A8_4d47_8F3E_9559C0D31D1F" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Realisation"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7753,16 +7703,15 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Association xmi.id="EAID_A076A99C_9725_4493_804B_EC785E26B3F5" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7775,7 +7724,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="442"/>
 								<UML:TaggedValue tag="ea_targetID" value="433"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=21;SY=0;EX=21;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -7797,10 +7745,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_C6FA9054_8FF2_48f8_88D7_2E0714798CD4" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7813,7 +7761,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="433"/>
 								<UML:TaggedValue tag="ea_targetID" value="442"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-25;SY=0;EX=-25;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -7894,7 +7841,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="name" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7908,7 +7855,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="dir" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -7922,7 +7869,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="images" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid16"/>
+												<UML:Classifier xmi.idref="eaxmiid17"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="2"/>
@@ -7940,10 +7887,10 @@
 						</UML:Class>
 						<UML:Dependency client="EAID_67F5B2B2_9F66_44bf_A410_323C9D660755" supplier="EAID_8CFCC7BE_4EA6_41af_814D_86E2AE29334B" xmi.id="EAID_9239444E_CB9B_4971_BAB5_5E19AE9679F5" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Realisation"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -7972,7 +7919,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -8037,7 +7983,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="name" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8051,7 +7997,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="dir" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -8065,7 +8011,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="images" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid16"/>
+												<UML:Classifier xmi.idref="eaxmiid17"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="2"/>
@@ -8083,10 +8029,10 @@
 						</UML:Class>
 						<UML:Dependency client="EAID_6B9E5951_EC91_4d07_AC39_756F61D29800" supplier="EAID_8CFCC7BE_4EA6_41af_814D_86E2AE29334B" xmi.id="EAID_197DCAFF_5574_4c67_8FD6_D143F92DA16C" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Realisation"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -8115,7 +8061,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -8291,7 +8236,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="536"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-1;SY=50;EX=0;EY=1;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -8345,7 +8289,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=35;SY=8;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -8537,7 +8480,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=7;SY=-31;EX=14;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -8565,7 +8507,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="434"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="$ea_attsclassified" value="{338F013C-BD10-486c-B8CB-488B35A5A91C},{21262F44-1F38-402e-AC52-F9949D207094},{8D90B1E4-EFCE-49f7-B7AA-DAA193DA2A95},{65859849-6A72-43a1-B5F8-A01F12EFAE34},{2B8F03E7-A6AA-479b-8F8F-A6A484DC0634},{38D8B1A9-20F1-473a-B9A7-60FCB9982017},{12F5867D-16C0-4291-9AC3-754A8B6CA168}"/>
+								<UML:TaggedValue tag="$ea_attsclassified" value="{2B8F03E7-A6AA-479b-8F8F-A6A484DC0634},{65859849-6A72-43a1-B5F8-A01F12EFAE34},{38D8B1A9-20F1-473a-B9A7-60FCB9982017},{8D90B1E4-EFCE-49f7-B7AA-DAA193DA2A95},{338F013C-BD10-486c-B8CB-488B35A5A91C},{21262F44-1F38-402e-AC52-F9949D207094},{12F5867D-16C0-4291-9AC3-754A8B6CA168}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={63042AAA-7999-4ab9-9C4C-1E5D0AA7518C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;@ENDSTEREO;$DES;$CLT={86B6E29B-C5FD-44f8-9BDC-D2B03A1AEE91}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
@@ -9161,7 +9103,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9728014C-63E7-43a4-8987-7FADAE01BE86}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={096317B1-A26A-47e0-8410-DB2496F581D0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=-104;EY=39;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -9250,7 +9191,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5833149D-4FFE-4a74-BEA7-78FD0EA2196E}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={27C27BE6-9A7F-411a-971B-9C2B26665E9A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-9;SY=-50;EX=11;EY=-50;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -9273,7 +9213,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="537"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-24;SY=43;EX=11;EY=99;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -9311,7 +9250,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="533"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-20;SY=0;EX=0;EY=34;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -9336,10 +9274,10 @@
 								<UML:Stereotype name="use"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Dependency"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -9371,7 +9309,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={10F29D31-0FD4-4fdf-A0A6-79B856E09427}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={54892704-D5A6-4f98-9E1B-10A9389E6787}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -9416,7 +9353,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AB009855-BC14-4edb-9DC5-D474CFCA3616}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={6F83C7D7-DD6D-4a3e-BA8B-68E3863B0D1A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-67;SY=-48;EX=-59;EY=-7;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -9439,7 +9375,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="535"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=20;SY=-42;EX=7;EY=1;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -9477,7 +9412,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="435"/>
 								<UML:TaggedValue tag="ea_targetID" value="434"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=27;EX=-4;EY=26;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -9676,7 +9610,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="order" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="3"/>
@@ -9726,7 +9660,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=52;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -9788,7 +9721,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="name" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9802,7 +9735,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="dir" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -9816,7 +9749,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="images" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid16"/>
+												<UML:Classifier xmi.idref="eaxmiid17"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="2"/>
@@ -9885,7 +9818,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid18"/>
+										<UML:Classifier xmi.idref="eaxmiid19"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="newPointView"/>
@@ -10015,7 +9948,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="order" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="3"/>
@@ -10033,10 +9966,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_4465759F_5751_48d7_B68B_37D211EF3022" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -10049,7 +9982,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="435"/>
 								<UML:TaggedValue tag="ea_targetID" value="437"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-39;SY=-2;EX=-39;EY=-2;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -10071,10 +10003,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_7FA64CA4_286D_4398_B2CD_BC5FF9FF1863" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -10087,7 +10019,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="437"/>
 								<UML:TaggedValue tag="ea_targetID" value="435"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=19;SY=0;EX=19;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -10109,10 +10040,10 @@
 						</UML:Association>
 						<UML:Dependency client="EAID_9E7AC5D0_C53E_41c9_AB66_6AC2B404B54A" supplier="EAID_198AFA1B_C89A_4053_B080_2EEEB9B53495" xmi.id="EAID_E3E0EED7_3AB5_4228_AD6D_17E43AAB3A48" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Realisation"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -10141,7 +10072,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -10652,13 +10582,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{E502CEE0-2AC3-4745-8D5D-B6A2385500F9}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -10720,13 +10649,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{E7DEBA49-A7F1-4650-A22B-608905A9B0D6}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -10788,13 +10716,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{FD5E00C7-B3CC-4e77-9267-19CD86C1E1EE}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -10827,7 +10754,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10878,7 +10805,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10891,7 +10818,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="s" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10978,7 +10905,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="436"/>
 								<UML:TaggedValue tag="ea_targetID" value="463"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-68;SY=-23;EX=-82;EY=-15;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -11000,10 +10926,10 @@
 						</UML:Association>
 						<UML:Dependency client="EAID_9F5C3A4A_A6CA_4852_84E9_9A9F91EC8A6D" supplier="EAID_C65C5BA3_3767_4fc1_AC4D_7DD4C28279BC" xmi.id="EAID_33B6BA45_81B1_4dc1_A534_F8D579E124DE" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Realisation"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -11032,7 +10958,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-1;SY=2;EX=-1;EY=2;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -11054,7 +10979,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="436"/>
 								<UML:TaggedValue tag="ea_targetID" value="445"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=47;SY=-5;EX=47;EY=-5;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -11092,7 +11016,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="436"/>
 								<UML:TaggedValue tag="ea_targetID" value="465"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-29;SY=-4;EX=-29;EY=-4;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -11130,7 +11053,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="436"/>
 								<UML:TaggedValue tag="ea_targetID" value="438"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-51;SY=60;EX=-26;EY=83;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -11284,7 +11206,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="points" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11323,7 +11245,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11362,7 +11284,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11470,7 +11392,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=2;SY=14;EX=-21;EY=3;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -11529,8 +11450,8 @@
 								<UML:TaggedValue tag="ea_localid" value="438"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="$ea_attsclassified" value="{88E707D7-D6E9-4962-9A87-1C242D266A84},{47E633E6-6985-4067-BCB7-48A042B311D5},{28FC2119-0CB7-4dc4-9288-C13C70C7DBAD}"/>
-								<UML:TaggedValue tag="$ea_oprsclassified" value="{0ED45F55-81A4-4dbc-8536-76EDDC06C3CD},{27EBCB00-9EA6-4a8d-95FE-3BD73031736A},{689FA30A-8FBF-4bbf-A721-2B69761096A1},{2276811E-702B-4c4f-BA64-8A9B42D40704},{F65C8D15-6697-4d06-AC2F-CCE4A0D15FA3},{51E3C864-61FB-4dd7-A5F0-7180716FB1FE},{8A74BD32-08E8-4136-8E3F-EFAD4BB89391},{FF658BEB-FB7C-4e79-81B3-842EE1F69FE0},{1823A756-B93B-454a-8F4C-C61B0EB6D8E5},{4B12AF53-8E41-4ee3-BD61-B81556CE1550},{B06D2F11-5363-45b7-95AF-ACEB13391CA6},{A99C90DA-95A7-4a0b-AE10-5C59D811EF56},{0DC38EBE-3169-4716-B279-E13601F7E9C7},{0DD32BAA-1688-4677-BE77-AC7272A565BB},{44948DD6-043B-48f5-AF23-0414B56B41D6},{D6B3D26E-308B-4d78-9ADF-45E9517FBCF6},{6183C710-0C7A-4d2c-82C7-0B936ADC2A27},{E69F3ABA-EB5E-40dd-B2B9-D29CD1CA6E0C},{FE90652B-175C-405c-8740-F65BBB9F7112},{4373CC58-CCA3-496e-9F87-362A0E5DAF5D},{EFD93A0A-E1FB-4ac6-BD69-02FE75D182D9},{251F7058-A2B7-402b-AA51-8CE9D4834EAA},{2A1C411C-A8B7-4208-9971-CC9A879EE093},{7D8B75FF-2C58-4cb2-9364-C97C58235EFB},{9D1C86F4-143C-430c-88FA-1330DA9E5B3B},{5956E858-C3EF-45d8-8440-4547D80D7826},{CBBC3B12-5EF2-458a-B772-ACBFD55C5E55},{6D1E0D45-0AA8-4605-84AF-90A7DAA9FBDE},{5F202719-5F70-47cc-A000-B7AE723661A3},{CE73B190-A6C1-4cff-B3FB-FDB451746441}"/>
-								<UML:TaggedValue tag="$ea_oprparamsclassified" value="{957CD279-89DA-49f7-86BC-19772038CEA3},{0271DFA5-0722-460e-8F37-1032BDF07FDA},{E2797172-9EA9-4177-A2B4-65B0243A5A80},{551AC795-C0A7-42ea-B297-A075CF2AE97A},{7CFFFB4D-1E7E-409c-8F69-75B8E03A6314},{9759A087-0012-40a5-B3E7-71BB6785E47C},{4AACAE6C-E37F-4ada-99FA-8190416423E2},{E9612C49-ECE3-47fb-B7F1-5EEC83C6A95E},{21FEE0C9-8EE7-4723-8E76-3396D8127EC6},{D60D7991-BEA2-49a2-9D71-A1DC0AF6E4FD},{0B063255-D302-493b-99D1-58063B99332B},{F058206F-9A50-4180-8061-9E8D227543A9},{C8A0F3AE-B5F9-4b0c-BF20-F3B845AF54F2},{81AC9CC6-14F5-4efd-B86D-8889716D445E},{70CDC6B7-A560-4fe7-83B5-89739D64CD16}"/>
+								<UML:TaggedValue tag="$ea_oprsclassified" value="{0ED45F55-81A4-4dbc-8536-76EDDC06C3CD},{5F202719-5F70-47cc-A000-B7AE723661A3},{4B12AF53-8E41-4ee3-BD61-B81556CE1550},{689FA30A-8FBF-4bbf-A721-2B69761096A1},{A99C90DA-95A7-4a0b-AE10-5C59D811EF56},{51E3C864-61FB-4dd7-A5F0-7180716FB1FE},{6D1E0D45-0AA8-4605-84AF-90A7DAA9FBDE},{8A74BD32-08E8-4136-8E3F-EFAD4BB89391},{FF658BEB-FB7C-4e79-81B3-842EE1F69FE0},{1823A756-B93B-454a-8F4C-C61B0EB6D8E5},{251F7058-A2B7-402b-AA51-8CE9D4834EAA},{B06D2F11-5363-45b7-95AF-ACEB13391CA6},{27EBCB00-9EA6-4a8d-95FE-3BD73031736A},{0DC38EBE-3169-4716-B279-E13601F7E9C7},{0DD32BAA-1688-4677-BE77-AC7272A565BB},{44948DD6-043B-48f5-AF23-0414B56B41D6},{D6B3D26E-308B-4d78-9ADF-45E9517FBCF6},{6183C710-0C7A-4d2c-82C7-0B936ADC2A27},{E69F3ABA-EB5E-40dd-B2B9-D29CD1CA6E0C},{FE90652B-175C-405c-8740-F65BBB9F7112},{4373CC58-CCA3-496e-9F87-362A0E5DAF5D},{EFD93A0A-E1FB-4ac6-BD69-02FE75D182D9},{9D1C86F4-143C-430c-88FA-1330DA9E5B3B},{2276811E-702B-4c4f-BA64-8A9B42D40704},{5956E858-C3EF-45d8-8440-4547D80D7826},{2A1C411C-A8B7-4208-9971-CC9A879EE093},{CBBC3B12-5EF2-458a-B772-ACBFD55C5E55},{F65C8D15-6697-4d06-AC2F-CCE4A0D15FA3},{7D8B75FF-2C58-4cb2-9364-C97C58235EFB},{CE73B190-A6C1-4cff-B3FB-FDB451746441}"/>
+								<UML:TaggedValue tag="$ea_oprparamsclassified" value="{551AC795-C0A7-42ea-B297-A075CF2AE97A},{9759A087-0012-40a5-B3E7-71BB6785E47C},{0B063255-D302-493b-99D1-58063B99332B},{4AACAE6C-E37F-4ada-99FA-8190416423E2},{957CD279-89DA-49f7-86BC-19772038CEA3},{E9612C49-ECE3-47fb-B7F1-5EEC83C6A95E},{0271DFA5-0722-460e-8F37-1032BDF07FDA},{70CDC6B7-A560-4fe7-83B5-89739D64CD16},{E2797172-9EA9-4177-A2B4-65B0243A5A80},{7CFFFB4D-1E7E-409c-8F69-75B8E03A6314},{D60D7991-BEA2-49a2-9D71-A1DC0AF6E4FD},{21FEE0C9-8EE7-4723-8E76-3396D8127EC6},{F058206F-9A50-4180-8061-9E8D227543A9},{81AC9CC6-14F5-4efd-B86D-8889716D445E},{C8A0F3AE-B5F9-4b0c-BF20-F3B845AF54F2}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2D776998-96C0-42e8-937C-6F0BC73FBA11}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;@ENDSTEREO;$DES;$CLT={B18E1FC4-F16B-401e-B7E3-D7CD607DE4D4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
@@ -11595,7 +11516,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11653,7 +11574,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11682,7 +11603,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11711,7 +11632,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11830,7 +11751,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="author" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11874,7 +11795,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="name" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11930,7 +11851,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FB9703F8-AF51-4c5d-A277-AC5087BADB55}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={B2D34591-A770-4ffe-A165-06228DA102A5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-109;SY=-18;EX=-8;EY=21;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -11940,10 +11860,10 @@
 								<UML:Stereotype name="use"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Dependency"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -11975,7 +11895,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7AEF8116-52F6-4c57-8867-07F4DBE6E17B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=use;GUID={7949BE6D-79CD-424c-B780-91F4B0FEEF5D};@ENDSTEREO;$DES;$CLT={B9D7C6CE-6616-4765-B0CD-61FF1F6A2AA9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-2;SY=16;EX=-2;EY=16;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«use»"/>
 							</UML:ModelElement.taggedValue>
@@ -12052,7 +11971,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=-2;EY=6;EDGE=4;"/>
+								<UML:TaggedValue tag="privatedata5" value="EX=1;EY=-27;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -12231,7 +12150,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="speed" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid19"/>
+												<UML:Classifier xmi.idref="eaxmiid20"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12281,7 +12200,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=51;SY=-30;EX=49;EY=-28;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -12309,9 +12227,9 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="440"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="$ea_attsclassified" value="{5D30BE7C-DE96-47a6-8415-E8C51C18C764},{72B1FD73-A879-4945-91E5-F407D079D73A},{418F60C8-F685-4ca2-AC1E-4EBABE66125E}"/>
-								<UML:TaggedValue tag="$ea_oprsclassified" value="{5F33AFDB-9DF8-4c8d-93FE-696A6530E8E5},{3364E107-F9BF-47c8-99F5-376F0B279104},{ED6399B6-8E6B-444e-B558-4B303C97C4B7},{FED8D9EB-D04C-4927-8ACC-8B30160285A0},{2BFA8DAD-10A4-4320-B209-B7B38E81DF23},{53A65145-C446-4453-872F-05E66BDD9E1D}"/>
-								<UML:TaggedValue tag="$ea_oprparamsclassified" value="{ACE6A4E9-ECB0-4986-B388-B06C685692E0},{FF5F3D9D-1102-4800-9538-73212F781F6F},{A59A08A1-2E6F-4c80-B982-FFCF134328B8},{E6A609BE-7FEB-4160-B653-3DAA03D972B1},{81BFD4A1-1712-4aa6-9369-E15C94B8B0BF},{33350D1C-B0D6-4f2a-B3EC-43BECEB1B74D},{54E4A26D-523D-4e08-9E70-4DFE5D1CAFD5},{399AFF13-CF81-43c8-A810-09E4E7AAD903},{9C8127C0-117B-4b8f-8020-082B637DD420},{2311FE59-0CCF-4309-8FE0-7F0D69FDC92D}"/>
+								<UML:TaggedValue tag="$ea_attsclassified" value="{5D30BE7C-DE96-47a6-8415-E8C51C18C764},{418F60C8-F685-4ca2-AC1E-4EBABE66125E},{72B1FD73-A879-4945-91E5-F407D079D73A}"/>
+								<UML:TaggedValue tag="$ea_oprsclassified" value="{5F33AFDB-9DF8-4c8d-93FE-696A6530E8E5},{ED6399B6-8E6B-444e-B558-4B303C97C4B7},{53A65145-C446-4453-872F-05E66BDD9E1D},{FED8D9EB-D04C-4927-8ACC-8B30160285A0},{3364E107-F9BF-47c8-99F5-376F0B279104},{2BFA8DAD-10A4-4320-B209-B7B38E81DF23}"/>
+								<UML:TaggedValue tag="$ea_oprparamsclassified" value="{A59A08A1-2E6F-4c80-B982-FFCF134328B8},{9C8127C0-117B-4b8f-8020-082B637DD420},{2311FE59-0CCF-4309-8FE0-7F0D69FDC92D},{54E4A26D-523D-4e08-9E70-4DFE5D1CAFD5},{FF5F3D9D-1102-4800-9538-73212F781F6F},{399AFF13-CF81-43c8-A810-09E4E7AAD903},{81BFD4A1-1712-4aa6-9369-E15C94B8B0BF},{E6A609BE-7FEB-4160-B653-3DAA03D972B1},{ACE6A4E9-ECB0-4986-B388-B06C685692E0},{33350D1C-B0D6-4f2a-B3EC-43BECEB1B74D}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={41268CB0-546D-4368-9FD0-5085A8BF5673}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;@ENDSTEREO;$DES;$CLT={C65C5BA3-3767-4fc1-AC4D-7DD4C28279BC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
@@ -12592,13 +12510,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{DCAA6090-F0AF-4725-B6B9-2C96AD580181}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -12650,13 +12567,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{D8CE4416-3986-4fb2-AB14-8210A894B03C}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -12708,13 +12624,12 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
 												<UML:TaggedValue tag="type" value="Axis"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="classifier" value="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B"/>
 												<UML:TaggedValue tag="ea_guid" value="{A92A2207-74B9-4cba-879B-DB37B3AA84DB}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
@@ -12737,7 +12652,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12778,7 +12693,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12791,7 +12706,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="s" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12867,7 +12782,7 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Interface"/>
 								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
 								<UML:TaggedValue tag="ea_sourceID" value="440"/>
-								<UML:TaggedValue tag="ea_targetID" value="532"/>
+								<UML:TaggedValue tag="ea_targetID" value="582"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -12921,7 +12836,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-6;SY=34;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -12952,7 +12866,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid20"/>
+										<UML:Classifier xmi.idref="eaxmiid21"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="TourPlayerCtrl"/>
@@ -13068,7 +12982,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=60;SY=-37;EX=10;EY=-32;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -13192,7 +13105,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=-1;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -13316,7 +13228,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=11;SY=8;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -13347,7 +13258,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid11"/>
+										<UML:Classifier xmi.idref="eaxmiid12"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;Button&gt;"/>
@@ -13470,7 +13381,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13509,7 +13420,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13598,7 +13509,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-18;SY=22;EX=-14;EY=16;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -13846,7 +13756,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13885,7 +13795,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13974,7 +13884,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=39;SY=-1;EX=-73;EY=-3;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -14177,7 +14086,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14216,7 +14125,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14324,7 +14233,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=1;SY=-1;EX=29;EY=48;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -14497,31 +14405,6 @@
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
-										<UML:ClassifierRole name="Delete tour" xmi.id="EAID_733554BA_C0D7_41c2_8B4A_C5E4ECA8A782" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="isAbstract" value="false"/>
-												<UML:TaggedValue tag="isSpecification" value="false"/>
-												<UML:TaggedValue tag="ea_stype" value="Package"/>
-												<UML:TaggedValue tag="ea_ntype" value="0"/>
-												<UML:TaggedValue tag="version" value="1.0"/>
-												<UML:TaggedValue tag="isActive" value="false"/>
-												<UML:TaggedValue tag="package" value="EAPK_A5565B6B_F9F7_4745_9D6C_1F2FA036545D"/>
-												<UML:TaggedValue tag="date_created" value="2016-05-29 23:05:47"/>
-												<UML:TaggedValue tag="date_modified" value="2016-05-29 23:05:47"/>
-												<UML:TaggedValue tag="gentype" value="Java"/>
-												<UML:TaggedValue tag="tagged" value="0"/>
-												<UML:TaggedValue tag="package2" value="EAID_733554BA_C0D7_41c2_8B4A_C5E4ECA8A782"/>
-												<UML:TaggedValue tag="package_name" value="Sequence diagram"/>
-												<UML:TaggedValue tag="phase" value="1.0"/>
-												<UML:TaggedValue tag="author" value="cristian"/>
-												<UML:TaggedValue tag="complexity" value="1"/>
-												<UML:TaggedValue tag="status" value="Proposed"/>
-												<UML:TaggedValue tag="tpos" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="43"/>
-												<UML:TaggedValue tag="ea_eleType" value="package"/>
-												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-											</UML:ModelElement.taggedValue>
-										</UML:ClassifierRole>
 										<UML:ClassifierRole name="Rewind tour" xmi.id="EAID_8D0659AF_05A7_48a9_A8A2_7C1856A30483" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
@@ -14597,31 +14480,6 @@
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
-										<UML:ClassifierRole name="Open tour" xmi.id="EAID_F9339128_513E_4f83_B364_83F33F87B841" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="isAbstract" value="false"/>
-												<UML:TaggedValue tag="isSpecification" value="false"/>
-												<UML:TaggedValue tag="ea_stype" value="Package"/>
-												<UML:TaggedValue tag="ea_ntype" value="0"/>
-												<UML:TaggedValue tag="version" value="1.0"/>
-												<UML:TaggedValue tag="isActive" value="false"/>
-												<UML:TaggedValue tag="package" value="EAPK_A5565B6B_F9F7_4745_9D6C_1F2FA036545D"/>
-												<UML:TaggedValue tag="date_created" value="2016-05-29 23:04:53"/>
-												<UML:TaggedValue tag="date_modified" value="2016-05-29 23:04:53"/>
-												<UML:TaggedValue tag="gentype" value="Java"/>
-												<UML:TaggedValue tag="tagged" value="0"/>
-												<UML:TaggedValue tag="package2" value="EAID_F9339128_513E_4f83_B364_83F33F87B841"/>
-												<UML:TaggedValue tag="package_name" value="Sequence diagram"/>
-												<UML:TaggedValue tag="phase" value="1.0"/>
-												<UML:TaggedValue tag="author" value="cristian"/>
-												<UML:TaggedValue tag="complexity" value="1"/>
-												<UML:TaggedValue tag="status" value="Proposed"/>
-												<UML:TaggedValue tag="tpos" value="0"/>
-												<UML:TaggedValue tag="ea_localid" value="42"/>
-												<UML:TaggedValue tag="ea_eleType" value="package"/>
-												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-											</UML:ModelElement.taggedValue>
-										</UML:ClassifierRole>
 									</UML:Namespace.ownedElement>
 									<UML:Collaboration.interaction/>
 								</UML:Collaboration>
@@ -14648,24 +14506,6 @@
 										<UML:TaggedValue tag="parent" value="EAPK_A5565B6B_F9F7_4745_9D6C_1F2FA036545D"/>
 										<UML:TaggedValue tag="created" value="2016-05-29 23:01:50"/>
 										<UML:TaggedValue tag="modified" value="2016-05-29 23:01:50"/>
-										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isprotected" value="FALSE"/>
-										<UML:TaggedValue tag="usedtd" value="FALSE"/>
-										<UML:TaggedValue tag="logxml" value="FALSE"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="author" value="cristian"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="ea_stype" value="Public"/>
-									</UML:ModelElement.taggedValue>
-									<UML:Namespace.ownedElement/>
-								</UML:Package>
-								<UML:Package name="Delete tour" xmi.id="EAPK_733554BA_C0D7_41c2_8B4A_C5E4ECA8A782" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="parent" value="EAPK_A5565B6B_F9F7_4745_9D6C_1F2FA036545D"/>
-										<UML:TaggedValue tag="created" value="2016-05-29 23:05:47"/>
-										<UML:TaggedValue tag="modified" value="2016-05-29 23:05:47"/>
 										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -14720,24 +14560,6 @@
 										<UML:TaggedValue tag="parent" value="EAPK_A5565B6B_F9F7_4745_9D6C_1F2FA036545D"/>
 										<UML:TaggedValue tag="created" value="2016-05-29 22:58:44"/>
 										<UML:TaggedValue tag="modified" value="2016-05-29 22:58:44"/>
-										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
-										<UML:TaggedValue tag="version" value="1.0"/>
-										<UML:TaggedValue tag="isprotected" value="FALSE"/>
-										<UML:TaggedValue tag="usedtd" value="FALSE"/>
-										<UML:TaggedValue tag="logxml" value="FALSE"/>
-										<UML:TaggedValue tag="phase" value="1.0"/>
-										<UML:TaggedValue tag="status" value="Proposed"/>
-										<UML:TaggedValue tag="author" value="cristian"/>
-										<UML:TaggedValue tag="complexity" value="1"/>
-										<UML:TaggedValue tag="ea_stype" value="Public"/>
-									</UML:ModelElement.taggedValue>
-									<UML:Namespace.ownedElement/>
-								</UML:Package>
-								<UML:Package name="Open tour" xmi.id="EAPK_F9339128_513E_4f83_B364_83F33F87B841" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="parent" value="EAPK_A5565B6B_F9F7_4745_9D6C_1F2FA036545D"/>
-										<UML:TaggedValue tag="created" value="2016-05-29 23:04:53"/>
-										<UML:TaggedValue tag="modified" value="2016-05-29 23:04:53"/>
 										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -14827,27 +14649,28 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:DataType xmi.id="eaxmiid8" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid14" name="List&lt;TourPoint&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid19" name="PlaterSpeed" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid9" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid15" name="List&lt;TourPoint&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid20" name="PlaterSpeed" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid8" name="Axis" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid2" name="void" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid16" name="Images" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid9" name="Point" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid17" name="Images" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid10" name="Point" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid4" name="double" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid18" name="newPointView" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid13" name="List&lt;TourPath&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid15" name="List&lt;Images&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid19" name="newPointView" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid14" name="List&lt;TourPath&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid16" name="List&lt;Images&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid1" name="List&lt;Tour&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid10" name="Set&lt;PlayerSpeed&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid20" name="TourPlayerCtrl" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid11" name="Set&lt;PlayerSpeed&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid21" name="TourPlayerCtrl" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid5" name="Vector" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid11" name="List&lt;Button&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid12" name="List&lt;Button&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid3" name="Color" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid7" name="boolean" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid12" name="String" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid13" name="String" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid0" name="long" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid6" name="Type" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid17" name="int" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid18" name="int" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 		<UML:Diagram name="Domain Model" xmi.id="EAID_A97626D6_FBDC_4627_B1FC_0A4FD52B3C76" diagramType="ClassDiagram" owner="EAPK_088E4411_BCF2_4c03_B4A8_35E732B15799" toolName="Enterprise Architect 2.5">
@@ -14855,14 +14678,14 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="cristian"/>
 				<UML:TaggedValue tag="created_date" value="2016-05-22 19:05:57"/>
-				<UML:TaggedValue tag="modified_date" value="2016-05-31 02:14:14"/>
+				<UML:TaggedValue tag="modified_date" value="2016-05-31 14:15:34"/>
 				<UML:TaggedValue tag="package" value="EAPK_088E4411_BCF2_4c03_B4A8_35E732B15799"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="43"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=66;ShowTags=0;OpParams=2;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=6C389F36;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=56;ShowTags=0;OpParams=2;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=BFDFDE06;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=1554;Top=1583;Right=1723;Bottom=1749;" subject="EAID_209C07F0_96D4_446c_A3BA_5C55925853A9" seqno="1" style="DUID=2E6534C5;"/>
@@ -15032,20 +14855,6 @@
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 		</UML:Diagram>
-		<UML:Diagram name="Delete tour" xmi.id="EAID_1E9679B7_F60D_478f_8329_40E239F9305F" diagramType="SequenceDiagram" owner="EAPK_733554BA_C0D7_41c2_8B4A_C5E4ECA8A782" toolName="Enterprise Architect 2.5">
-			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="version" value="1.0"/>
-				<UML:TaggedValue tag="created_date" value="2016-05-29 23:05:50"/>
-				<UML:TaggedValue tag="modified_date" value="2016-05-29 23:05:50"/>
-				<UML:TaggedValue tag="package" value="EAPK_733554BA_C0D7_41c2_8B4A_C5E4ECA8A782"/>
-				<UML:TaggedValue tag="type" value="Sequence"/>
-				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
-				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="38"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-			</UML:ModelElement.taggedValue>
-		</UML:Diagram>
 		<UML:Diagram name="Forward tour" xmi.id="EAID_D06EAEBA_EEF2_4634_BF27_D4932121DC23" diagramType="SequenceDiagram" owner="EAPK_24C54E08_E67E_4285_959D_7053A21FBDEF" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="version" value="1.0"/>
@@ -15088,20 +14897,6 @@
 				<UML:TaggedValue tag="ea_localid" value="29"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<UML:TaggedValue tag="styleex" value="SaveTag=503C2602;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-			</UML:ModelElement.taggedValue>
-		</UML:Diagram>
-		<UML:Diagram name="Open tour" xmi.id="EAID_2DC1A355_AB32_43df_8F45_4C4520F73E91" diagramType="SequenceDiagram" owner="EAPK_F9339128_513E_4f83_B364_83F33F87B841" toolName="Enterprise Architect 2.5">
-			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="version" value="1.0"/>
-				<UML:TaggedValue tag="created_date" value="2016-05-29 23:04:57"/>
-				<UML:TaggedValue tag="modified_date" value="2016-05-29 23:04:57"/>
-				<UML:TaggedValue tag="package" value="EAPK_F9339128_513E_4f83_B364_83F33F87B841"/>
-				<UML:TaggedValue tag="type" value="Sequence"/>
-				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
-				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="37"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 		</UML:Diagram>
 		<UML:Diagram name="Pause tour" xmi.id="EAID_B2F047DA_5ECF_4e1b_AE0E_645A5BF4F0B9" diagramType="SequenceDiagram" owner="EAPK_496CC021_B164_4cbd_ABA1_09103B1D345C" toolName="Enterprise Architect 2.5">
@@ -15224,6 +15019,5 @@
 		<EAStub xmi.id="EAID_E969A377_6BBA_4e98_9916_7E63B8E598D6" name="Project" UMLType="Class"/>
 		<EAStub xmi.id="EAID_F582FAFF_64ED_4035_9823_CEB3788F909A" name="Transformable" UMLType="Interface"/>
 		<EAStub xmi.id="EAID_2389E43F_BCA3_4371_9B8D_D2B12B316464" name="Color" UMLType="Class"/>
-		<EAStub xmi.id="EAID_F00C4BD3_10CC_47c3_AB14_4AA2AEC1808B" name="Axis" UMLType="Class"/>
 	</XMI.extensions>
 </XMI>
