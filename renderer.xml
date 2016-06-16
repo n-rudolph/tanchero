@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2016-06-16 20:09:36">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2016-06-16 20:14:44">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -627,6 +627,58 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
+								<UML:Operation name="changeCamera" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="concurrency" value="Sequential"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{C5412BFC-6F7E-47cb-BC56-C8F278AEBF4B}"/>
+										<UML:TaggedValue tag="ea_localid" value="5867"/>
+										<UML:TaggedValue tag="Implements" value="SceneController.changeCamera" xmi.id="EAID_0C06DEC4_5824_458e_BCD8_2A2F6A1231FE">
+											<XMI.extension xmi.extender="Enterprise Architect 2.5">
+												<UML:Comment name="Qualified name for the interface operation"/>
+											</XMI.extension>
+										</UML:TaggedValue>
+										<UML:TaggedValue tag="ImplementsGuid" value="{4F9DA5CA-858A-463b-99F2-F189CFE192A3}" xmi.id="EAID_8CF21866_ED72_4faa_885D_DC00867F08F2">
+											<XMI.extension xmi.extender="Enterprise Architect 2.5">
+												<UML:Comment name="Identifies the interface operation"/>
+											</XMI.extension>
+										</UML:TaggedValue>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid2"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="type" value="void"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-6F7E-47cb-BC56-C8F278AEBF4B}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="camera" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid7"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="type" value="ICamera"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{6AC15665-2482-43f8-B997-90FE71FD5C54}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
 								<UML:Operation name="get3DPointFromMouse" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="IPoint"/>
@@ -651,7 +703,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid7"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -689,7 +741,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -703,7 +755,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="id" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -755,7 +807,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="rout" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid10"/>
+												<UML:Classifier xmi.idref="eaxmiid11"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -769,7 +821,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="dot" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -821,7 +873,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="route" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -998,7 +1050,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1040,7 +1092,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="vector" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1093,7 +1145,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="point" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1145,7 +1197,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1288,7 +1340,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1316,7 +1368,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1344,7 +1396,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid16"/>
+												<UML:Classifier xmi.idref="eaxmiid17"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1358,7 +1410,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1386,7 +1438,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid18"/>
+												<UML:Classifier xmi.idref="eaxmiid19"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1414,7 +1466,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1442,7 +1494,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid19"/>
+												<UML:Classifier xmi.idref="eaxmiid20"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1456,7 +1508,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1536,7 +1588,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1630,7 +1682,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid20"/>
+												<UML:Classifier xmi.idref="eaxmiid21"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1644,7 +1696,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="time" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1686,7 +1738,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1876,7 +1928,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="seconds" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid21"/>
+												<UML:Classifier xmi.idref="eaxmiid22"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1967,7 +2019,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1981,7 +2033,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -1995,7 +2047,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -2224,7 +2276,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="seconds" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid21"/>
+												<UML:Classifier xmi.idref="eaxmiid22"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2345,7 +2397,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid24"/>
+												<UML:Classifier xmi.idref="eaxmiid25"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2374,7 +2426,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid25"/>
+												<UML:Classifier xmi.idref="eaxmiid26"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2460,7 +2512,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2503,7 +2555,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="seasonType" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid26"/>
+												<UML:Classifier xmi.idref="eaxmiid27"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2546,7 +2598,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="season" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid26"/>
+												<UML:Classifier xmi.idref="eaxmiid27"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2726,7 +2778,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -2740,7 +2792,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3213,7 +3265,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="listener" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid28"/>
+												<UML:Classifier xmi.idref="eaxmiid29"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3339,7 +3391,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid29"/>
+												<UML:Classifier xmi.idref="eaxmiid30"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3381,7 +3433,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="listener" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid28"/>
+												<UML:Classifier xmi.idref="eaxmiid29"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3536,7 +3588,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid30"/>
+										<UML:Classifier xmi.idref="eaxmiid31"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="List&lt;ISceneView&gt;"/>
@@ -3655,7 +3707,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid31"/>
+												<UML:Classifier xmi.idref="eaxmiid32"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3683,7 +3735,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3711,7 +3763,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3739,7 +3791,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3767,7 +3819,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid34"/>
+												<UML:Classifier xmi.idref="eaxmiid35"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3795,7 +3847,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid35"/>
+												<UML:Classifier xmi.idref="eaxmiid36"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3823,7 +3875,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3943,7 +3995,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -3957,7 +4009,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -3999,7 +4051,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4486,7 +4538,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid31"/>
+												<UML:Classifier xmi.idref="eaxmiid32"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4682,7 +4734,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="int"/>
@@ -4737,7 +4789,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="ambient" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid37"/>
+												<UML:Classifier xmi.idref="eaxmiid38"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4789,7 +4841,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4841,7 +4893,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4879,7 +4931,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4893,7 +4945,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4907,7 +4959,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangules" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid38"/>
+												<UML:Classifier xmi.idref="eaxmiid39"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -4945,7 +4997,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4959,7 +5011,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -4973,7 +5025,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -5011,7 +5063,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5040,7 +5092,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5054,7 +5106,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5083,7 +5135,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5097,7 +5149,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tour" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5135,7 +5187,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5164,7 +5216,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5202,7 +5254,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5240,7 +5292,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5254,7 +5306,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="id" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5293,7 +5345,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid41"/>
+												<UML:Classifier xmi.idref="eaxmiid42"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5345,7 +5397,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5398,7 +5450,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5441,7 +5493,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tour" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5479,7 +5531,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid42"/>
+												<UML:Classifier xmi.idref="eaxmiid43"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5493,7 +5545,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="list" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid43"/>
+												<UML:Classifier xmi.idref="eaxmiid44"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5597,7 +5649,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5634,7 +5686,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5647,7 +5699,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5738,7 +5790,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5790,7 +5842,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5842,7 +5894,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5894,7 +5946,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -5999,7 +6051,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid45"/>
+												<UML:Classifier xmi.idref="eaxmiid46"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6013,7 +6065,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tringules" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid38"/>
+												<UML:Classifier xmi.idref="eaxmiid39"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6027,7 +6079,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -6079,7 +6131,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6324,7 +6376,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6338,7 +6390,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6352,7 +6404,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -6491,7 +6543,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6505,7 +6557,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6519,7 +6571,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -6572,7 +6624,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6600,7 +6652,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6628,7 +6680,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -6656,7 +6708,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7121,7 +7173,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="seconds" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid21"/>
+												<UML:Classifier xmi.idref="eaxmiid22"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7224,7 +7276,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7238,7 +7290,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles2D" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7252,7 +7304,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -7508,7 +7560,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid46"/>
+												<UML:Classifier xmi.idref="eaxmiid47"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7586,7 +7638,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid47"/>
+												<UML:Classifier xmi.idref="eaxmiid48"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7625,7 +7677,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid48"/>
+												<UML:Classifier xmi.idref="eaxmiid49"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7717,7 +7769,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="action" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid46"/>
+												<UML:Classifier xmi.idref="eaxmiid47"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7978,7 +8030,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -7992,7 +8044,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8021,7 +8073,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid49"/>
+												<UML:Classifier xmi.idref="eaxmiid50"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8049,7 +8101,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8077,7 +8129,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8106,7 +8158,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid49"/>
+												<UML:Classifier xmi.idref="eaxmiid50"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8120,7 +8172,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="vertex" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid50"/>
+												<UML:Classifier xmi.idref="eaxmiid51"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8149,7 +8201,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8163,7 +8215,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="vertex" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid49"/>
+												<UML:Classifier xmi.idref="eaxmiid50"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8241,7 +8293,7 @@
 								<UML:TaggedValue tag="ea_localid" value="432"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={12F88BD4-A1F8-416a-A1DC-2FB490D510E4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={31A227C8-5372-4d75-8CA4-0401BCE45F66};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={6221FE48-2E1B-4fd6-A8DA-8BA13F8F5FF2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FCD78563-FC61-47d5-8533-D1A4B4FAE920}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={31A227C8-5372-4d75-8CA4-0401BCE45F66};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={6221FE48-2E1B-4fd6-A8DA-8BA13F8F5FF2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
 								<UML:Attribute name="JPG" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -8249,7 +8301,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -8274,7 +8326,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -8299,7 +8351,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -8324,7 +8376,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -8349,7 +8401,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -8374,7 +8426,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid32"/>
+										<UML:Classifier xmi.idref="eaxmiid33"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -8408,7 +8460,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8475,7 +8527,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="point" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8733,7 +8785,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="ambient" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid37"/>
+												<UML:Classifier xmi.idref="eaxmiid38"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8775,7 +8827,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8817,7 +8869,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8845,7 +8897,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8859,7 +8911,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8873,7 +8925,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangules" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid38"/>
+												<UML:Classifier xmi.idref="eaxmiid39"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -8901,7 +8953,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8915,7 +8967,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8929,7 +8981,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -8957,7 +9009,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -8985,7 +9037,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9013,7 +9065,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9041,7 +9093,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9055,7 +9107,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="id" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9083,7 +9135,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid41"/>
+												<UML:Classifier xmi.idref="eaxmiid42"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9125,7 +9177,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9167,7 +9219,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9195,7 +9247,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid42"/>
+												<UML:Classifier xmi.idref="eaxmiid43"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9209,7 +9261,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="list" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid43"/>
+												<UML:Classifier xmi.idref="eaxmiid44"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9293,7 +9345,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9320,7 +9372,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9333,7 +9385,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9404,7 +9456,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9447,7 +9499,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9489,7 +9541,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9531,7 +9583,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9587,7 +9639,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid45"/>
+												<UML:Classifier xmi.idref="eaxmiid46"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9601,7 +9653,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tringules" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid38"/>
+												<UML:Classifier xmi.idref="eaxmiid39"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -9615,7 +9667,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -9657,7 +9709,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid39"/>
+												<UML:Classifier xmi.idref="eaxmiid40"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10037,7 +10089,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid46"/>
+												<UML:Classifier xmi.idref="eaxmiid47"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10115,7 +10167,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid47"/>
+												<UML:Classifier xmi.idref="eaxmiid48"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10154,7 +10206,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid48"/>
+												<UML:Classifier xmi.idref="eaxmiid49"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10246,7 +10298,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="action" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid46"/>
+												<UML:Classifier xmi.idref="eaxmiid47"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10372,7 +10424,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10385,7 +10437,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="void" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10399,7 +10451,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid24"/>
+												<UML:Classifier xmi.idref="eaxmiid25"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -10426,7 +10478,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10439,7 +10491,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="location" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid51"/>
+												<UML:Classifier xmi.idref="eaxmiid52"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10466,7 +10518,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10479,7 +10531,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="shape" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid52"/>
+												<UML:Classifier xmi.idref="eaxmiid53"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10518,7 +10570,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10546,7 +10598,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10574,7 +10626,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10602,7 +10654,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10630,7 +10682,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10658,7 +10710,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10686,7 +10738,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10700,7 +10752,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="t" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid53"/>
+												<UML:Classifier xmi.idref="eaxmiid54"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10742,7 +10794,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="shape" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid52"/>
+												<UML:Classifier xmi.idref="eaxmiid53"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10770,7 +10822,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10837,7 +10889,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -10851,7 +10903,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11084,7 +11136,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11098,7 +11150,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="vertices" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid54"/>
+												<UML:Classifier xmi.idref="eaxmiid55"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11137,7 +11189,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11151,7 +11203,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11180,7 +11232,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid54"/>
+												<UML:Classifier xmi.idref="eaxmiid55"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11194,7 +11246,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11223,7 +11275,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid54"/>
+												<UML:Classifier xmi.idref="eaxmiid55"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11237,7 +11289,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11315,7 +11367,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11329,7 +11381,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="canvas" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -11382,7 +11434,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11396,7 +11448,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -11438,7 +11490,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11452,7 +11504,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -11495,7 +11547,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11509,7 +11561,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tour" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -11561,7 +11613,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11575,7 +11627,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -11613,7 +11665,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid35"/>
+												<UML:Classifier xmi.idref="eaxmiid36"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11652,7 +11704,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11704,7 +11756,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tour" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11795,7 +11847,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="mode" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11838,7 +11890,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="ambient" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid37"/>
+												<UML:Classifier xmi.idref="eaxmiid38"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -11852,7 +11904,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -12053,45 +12105,6 @@
 										<UML:TaggedValue tag="position" value="12"/>
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{6FAA156D-6F26-4adf-A472-A67C05C4735D}"/>
-										<UML:TaggedValue tag="ea_localid" value="1592"/>
-										<UML:TaggedValue tag="ImplementsGuid" value="{AAD33EC0-7577-4913-A915-4FFE41844CE2}" xmi.id="EAID_26D18028_6F6F_4242_9328_44F06D858761">
-											<XMI.extension xmi.extender="Enterprise Architect 2.5">
-												<UML:Comment name="Identifies the interface operation"/>
-											</XMI.extension>
-										</UML:TaggedValue>
-										<UML:TaggedValue tag="Implements" value="Camera.getGraphic" xmi.id="EAID_C4E90CBE_8438_42c2_B670_DDB0D2A73D0E">
-											<XMI.extension xmi.extender="Enterprise Architect 2.5">
-												<UML:Comment name="Qualified name for the interface operation"/>
-											</XMI.extension>
-										</UML:TaggedValue>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid55"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="GraphicElement"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-6F26-4adf-A472-A67C05C4735D}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="getGraphic" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="GraphicElement"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="concurrency" value="Sequential"/>
-										<UML:TaggedValue tag="position" value="12"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{7E42D367-2743-4f70-B5F6-726D88337337}"/>
 										<UML:TaggedValue tag="ea_localid" value="1614"/>
 										<UML:TaggedValue tag="Implements" value="Element.getGraphic" xmi.id="EAID_5F51909E_0F1D_438b_84C8_2A2B3872F696">
@@ -12108,13 +12121,52 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid55"/>
+												<UML:Classifier xmi.idref="eaxmiid56"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="type" value="GraphicElement"/>
 												<UML:TaggedValue tag="const" value="0"/>
 												<UML:TaggedValue tag="ea_guid" value="{RETURNID-2743-4f70-B5F6-726D88337337}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+								<UML:Operation name="getGraphic" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="GraphicElement"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="concurrency" value="Sequential"/>
+										<UML:TaggedValue tag="position" value="12"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{6FAA156D-6F26-4adf-A472-A67C05C4735D}"/>
+										<UML:TaggedValue tag="ea_localid" value="1592"/>
+										<UML:TaggedValue tag="ImplementsGuid" value="{AAD33EC0-7577-4913-A915-4FFE41844CE2}" xmi.id="EAID_26D18028_6F6F_4242_9328_44F06D858761">
+											<XMI.extension xmi.extender="Enterprise Architect 2.5">
+												<UML:Comment name="Identifies the interface operation"/>
+											</XMI.extension>
+										</UML:TaggedValue>
+										<UML:TaggedValue tag="Implements" value="Camera.getGraphic" xmi.id="EAID_C4E90CBE_8438_42c2_B670_DDB0D2A73D0E">
+											<XMI.extension xmi.extender="Enterprise Architect 2.5">
+												<UML:Comment name="Qualified name for the interface operation"/>
+											</XMI.extension>
+										</UML:TaggedValue>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid56"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="type" value="GraphicElement"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-6F26-4adf-A472-A67C05C4735D}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -12147,7 +12199,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12186,7 +12238,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid56"/>
+												<UML:Classifier xmi.idref="eaxmiid57"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12225,7 +12277,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12342,7 +12394,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12421,7 +12473,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid57"/>
+												<UML:Classifier xmi.idref="eaxmiid58"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12460,7 +12512,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid56"/>
+												<UML:Classifier xmi.idref="eaxmiid57"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12499,7 +12551,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid56"/>
+												<UML:Classifier xmi.idref="eaxmiid57"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12566,7 +12618,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid58"/>
+												<UML:Classifier xmi.idref="eaxmiid59"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -12633,7 +12685,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid58"/>
+												<UML:Classifier xmi.idref="eaxmiid59"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -12700,7 +12752,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="axis" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid58"/>
+												<UML:Classifier xmi.idref="eaxmiid59"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -12738,7 +12790,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12789,7 +12841,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12802,7 +12854,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="a" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12840,7 +12892,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12853,7 +12905,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="a" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid56"/>
+												<UML:Classifier xmi.idref="eaxmiid57"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12891,7 +12943,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12904,7 +12956,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="s" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12942,7 +12994,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -12993,7 +13045,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13059,7 +13111,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="position" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13097,7 +13149,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid44"/>
+												<UML:Classifier xmi.idref="eaxmiid45"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13110,7 +13162,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="a" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid57"/>
+												<UML:Classifier xmi.idref="eaxmiid58"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13377,7 +13429,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13391,7 +13443,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangle" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13405,7 +13457,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -13511,7 +13563,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid59"/>
+												<UML:Classifier xmi.idref="eaxmiid60"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13525,7 +13577,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -13872,7 +13924,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13910,7 +13962,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13948,7 +14000,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -13986,7 +14038,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14064,7 +14116,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="listener" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid28"/>
+												<UML:Classifier xmi.idref="eaxmiid29"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14232,7 +14284,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid29"/>
+												<UML:Classifier xmi.idref="eaxmiid30"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14284,7 +14336,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="listener" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid28"/>
+												<UML:Classifier xmi.idref="eaxmiid29"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14352,7 +14404,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14366,7 +14418,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -14408,7 +14460,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14422,7 +14474,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -14464,7 +14516,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14478,7 +14530,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -14506,7 +14558,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid35"/>
+												<UML:Classifier xmi.idref="eaxmiid36"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14535,7 +14587,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14578,7 +14630,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="tour" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid40"/>
+												<UML:Classifier xmi.idref="eaxmiid41"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14650,7 +14702,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="mode" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14832,7 +14884,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid60"/>
+												<UML:Classifier xmi.idref="eaxmiid61"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14860,7 +14912,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid18"/>
+												<UML:Classifier xmi.idref="eaxmiid19"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14888,7 +14940,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14916,7 +14968,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -14972,7 +15024,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid35"/>
+												<UML:Classifier xmi.idref="eaxmiid36"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15000,7 +15052,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15042,7 +15094,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="scene" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid36"/>
+												<UML:Classifier xmi.idref="eaxmiid37"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15056,7 +15108,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="model" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid17"/>
+												<UML:Classifier xmi.idref="eaxmiid18"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -15168,7 +15220,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15240,7 +15292,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="d" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid33"/>
+												<UML:Classifier xmi.idref="eaxmiid34"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15414,7 +15466,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15453,7 +15505,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15582,7 +15634,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15611,7 +15663,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15625,7 +15677,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="vector" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15667,7 +15719,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="point" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15709,7 +15761,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15764,7 +15816,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid61"/>
+												<UML:Classifier xmi.idref="eaxmiid62"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15778,7 +15830,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15821,7 +15873,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -15977,7 +16029,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="point" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid14"/>
+												<UML:Classifier xmi.idref="eaxmiid15"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16160,7 +16212,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid31"/>
+												<UML:Classifier xmi.idref="eaxmiid32"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16267,7 +16319,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16281,7 +16333,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16310,7 +16362,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16324,7 +16376,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="element" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid13"/>
+												<UML:Classifier xmi.idref="eaxmiid14"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16440,7 +16492,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid59"/>
+												<UML:Classifier xmi.idref="eaxmiid60"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16454,7 +16506,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -16518,7 +16570,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16557,7 +16609,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16596,7 +16648,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16650,7 +16702,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="a" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16664,7 +16716,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="b" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -16678,7 +16730,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="c" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid32"/>
+												<UML:Classifier xmi.idref="eaxmiid33"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="2"/>
@@ -16768,7 +16820,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid23"/>
+												<UML:Classifier xmi.idref="eaxmiid24"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16782,7 +16834,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="light" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid27"/>
+												<UML:Classifier xmi.idref="eaxmiid28"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -16824,7 +16876,7 @@
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="$ea_classified" value="{78F50E9B-8370-45d6-946A-8DFF6B1C8398}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={58C81C1F-6376-497b-970C-2897A08C9B22}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={31A227C8-5372-4d75-8CA4-0401BCE45F66};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={E3A7A4A7-6441-4a30-92BE-A59B54F78C38}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={661D4D0A-E7AF-4a21-B48F-F970FD043D77}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={31A227C8-5372-4d75-8CA4-0401BCE45F66};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={E3A7A4A7-6441-4a30-92BE-A59B54F78C38}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
 								<UML:Attribute name="SPRING" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -16832,7 +16884,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid34"/>
+										<UML:Classifier xmi.idref="eaxmiid35"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -16857,7 +16909,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid34"/>
+										<UML:Classifier xmi.idref="eaxmiid35"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -16882,7 +16934,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid34"/>
+										<UML:Classifier xmi.idref="eaxmiid35"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -16907,7 +16959,7 @@
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
 									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid34"/>
+										<UML:Classifier xmi.idref="eaxmiid35"/>
 									</UML:StructuralFeature.type>
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="enum"/>
@@ -17024,6 +17076,48 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
+								<UML:Operation name="changeCamera" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="concurrency" value="Sequential"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{4F9DA5CA-858A-463b-99F2-F189CFE192A3}"/>
+										<UML:TaggedValue tag="ea_localid" value="5866"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid2"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="type" value="void"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-858A-463b-99F2-F189CFE192A3}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="camera" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid7"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="type" value="ICamera"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{148F2A45-981D-43ca-8A59-684309CA2709}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
 								<UML:Operation name="get3DPointFromMouse" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="type" value="IPoint"/>
@@ -17038,7 +17132,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid7"/>
+												<UML:Classifier xmi.idref="eaxmiid8"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17066,7 +17160,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid8"/>
+												<UML:Classifier xmi.idref="eaxmiid9"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17080,7 +17174,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="id" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid9"/>
+												<UML:Classifier xmi.idref="eaxmiid10"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17122,7 +17216,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="rout" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid10"/>
+												<UML:Classifier xmi.idref="eaxmiid11"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17136,7 +17230,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="dot" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid11"/>
+												<UML:Classifier xmi.idref="eaxmiid12"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -17178,7 +17272,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="route" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid12"/>
+												<UML:Classifier xmi.idref="eaxmiid13"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17270,7 +17364,7 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17284,7 +17378,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="triangles2D" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid22"/>
+												<UML:Classifier xmi.idref="eaxmiid23"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
@@ -17298,7 +17392,7 @@
 										</UML:Parameter>
 										<UML:Parameter name="camera" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid15"/>
+												<UML:Classifier xmi.idref="eaxmiid16"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="1"/>
@@ -21408,68 +21502,69 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:DataType xmi.id="eaxmiid44" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid45" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid1" name="Image" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid55" name="GraphicElement" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid36" name="Scene" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid17" name="Model" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid34" name="string" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid61" name="Tuple(Byte,Byte,Byte)[][]" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid46" name="Action" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid10" name="id" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid59" name="List&lt;Traiangle2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid52" name="Shape" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid58" name="Axis" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid49" name="List&lt;Vertex&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid15" name="Camera" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid56" name="GraphicElement" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid37" name="Scene" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid18" name="Model" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid35" name="string" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid62" name="Tuple(Byte,Byte,Byte)[][]" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid47" name="Action" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid11" name="id" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid60" name="List&lt;Traiangle2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid53" name="Shape" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid59" name="Axis" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid50" name="List&lt;Vertex&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid16" name="Camera" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid2" name="void" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid29" name="IScene" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid18" name="Point" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid30" name="IScene" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid19" name="Point" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid4" name="double" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid42" name="List&lt;Triangles&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid43" name="List&lt;Elements&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid28" name="ISceneViewClickListener" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid47" name="Icon" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid19" name="this" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid38" name="List&lt;Triangule&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid27" name="List&lt;Element&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid45" name="List&lt;Triangule2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid7" name="IPoint" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid23" name="List&lt;Triangle&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid37" name="Ambient" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid60" name="Int" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid40" name="Tour" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid21" name="float" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid20" name="List&lt;Image&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid26" name="SeasonType" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid53" name="Transformable" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid11" name="IDot" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid43" name="List&lt;Triangles&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid44" name="List&lt;Elements&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid29" name="ISceneViewClickListener" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid48" name="Icon" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid20" name="this" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid39" name="List&lt;Triangule&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid28" name="List&lt;Element&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid46" name="List&lt;Triangule2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid8" name="IPoint" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid24" name="List&lt;Triangle&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid38" name="Ambient" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid61" name="Int" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid41" name="Tour" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid22" name="float" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid21" name="List&lt;Image&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid27" name="SeasonType" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid54" name="Transformable" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid12" name="IDot" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid3" name="Tuple&lt;Byte,Byte,Byte&gt;[][]" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid50" name="Vertex" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid22" name="List&lt;Triangle2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid14" name="Vector" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid12" name="IRoute" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid51" name="Location" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid31" name="List&lt;Button&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid51" name="Vertex" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid7" name="ICamera" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid23" name="List&lt;Triangle2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid15" name="Vector" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid13" name="IRoute" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid52" name="Location" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid32" name="List&lt;Button&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid6" name="tuple&lt;double,double&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid8" name="IRout" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid9" name="IRout" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid0" name="Color" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid56" name="boolean" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid57" name="boolean" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<UML:DataType xmi.id="eaxmiid5" name="String" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid41" name="ISceneView" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid30" name="List&lt;ISceneView&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid48" name="long" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid57" name="Type" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid35" name="List&lt;Scene&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid16" name="List&lt;Model&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid9" name="Long" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid33" name="Dimension" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid24" name="Light" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid32" name="int" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid39" name="List&lt;Triangles2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid13" name="Element" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid54" name="List&lt;Edge&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid25" name="Season" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid42" name="ISceneView" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid31" name="List&lt;ISceneView&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid49" name="long" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid58" name="Type" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid36" name="List&lt;Scene&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid17" name="List&lt;Model&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid10" name="Long" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid34" name="Dimension" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid25" name="Light" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid33" name="int" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid40" name="List&lt;Triangles2D&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid14" name="Element" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid55" name="List&lt;Edge&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid26" name="Season" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 		<UML:Diagram name="Domain Model" xmi.id="EAID_339E6B84_1F3C_4bba_AF8B_0154B349EB3B" diagramType="ClassDiagram" owner="EAPK_38DDCC9E_A5B0_482f_9B78_CDBC30F37997" toolName="Enterprise Architect 2.5">
